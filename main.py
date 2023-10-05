@@ -23,5 +23,5 @@ def toss():
     result = random.choice(tossit)
     return f"<h1>{result}</h1>"
 
-app.run(debug=True)
+app.run(debug=False)
 
